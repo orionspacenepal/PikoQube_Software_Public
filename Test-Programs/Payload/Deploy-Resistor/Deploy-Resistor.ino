@@ -1,6 +1,6 @@
 // this program gives the feedback of the status of the string that deploys the antenna. 
 
-int deploymentPin = A7;   // select the input pin for the potentiometer
+int deploymentPin = A3;   // select the input pin for the potentiometer
 
 
 void setup() {
@@ -16,6 +16,6 @@ void loop() {
   delay(5000);
   analogWrite(deploymentPin,0);
   Serial.println("Deploy OFF");
-  delay(1000);
+  delay(5000);
   
 }
